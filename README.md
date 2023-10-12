@@ -57,6 +57,9 @@ customize to your liking both by removing and adding tools that you prefer.
 
 ## Quickstart
 
+[![Watch the walkthrough video](https://img.youtube.com/vi/wr22CyoyRo4/hqdefault.jpg)](https://www.youtube.com/watch?v=wr22CyoyRo4)
+
+
 * Create a server on Hetzner Cloud
     * Location: Any
     * Image: Ubuntu 22.04
