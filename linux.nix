@@ -6,6 +6,9 @@
   pkgs,
   ...
 }: {
+  # FIXME: change to your tz! look it up with "timedatectl list-timezones"
+  time.timeZone = "America/Los_Angeles";
+
   networking.hostName = "${hostname}";
 
   # FIXME: change your shell here if you don't want zsh
