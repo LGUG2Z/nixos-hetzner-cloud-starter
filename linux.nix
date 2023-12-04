@@ -9,6 +9,11 @@
   # FIXME: change to your tz! look it up with "timedatectl list-timezones"
   time.timeZone = "America/Los_Angeles";
 
+  systemd.tmpfiles.rules = [
+    "d /home/${username}/.config 0755 ${username} users"
+    "d /home/${username}/.config/lvim 0755 ${username} users"
+  ];
+
   networking.hostName = "${hostname}";
 
   # FIXME: change your shell here if you don't want zsh
